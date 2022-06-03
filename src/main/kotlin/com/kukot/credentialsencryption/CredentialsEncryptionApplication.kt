@@ -21,5 +21,5 @@ class CredentialsEncryptionApplication {
 }
 
 fun main(args: Array<String>) {
-    runApplication<CredentialsEncryptionApplication>(*args)
+    val appContext = runApplication<CredentialsEncryptionApplication>(*args)
 }
